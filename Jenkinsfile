@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Compiling the java source code'
-                sh 'python3 he'
+                sh 'python3 pipline.py'
             }
         }
         stage('run') {
